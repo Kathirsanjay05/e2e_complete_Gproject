@@ -1,0 +1,6 @@
+pandas
+numpy
+seaborn
+matplotlib
+-e .
+# this automatically trigger the setup.py to build the packages 
