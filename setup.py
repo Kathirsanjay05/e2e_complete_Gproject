@@ -2,7 +2,7 @@ from setuptools import find_packages,setup # type: ignore
 from typing import List
 
 HYPEN_E_DOT = '-e .'
-
+FILE_PATH = 'requirements.txt'
 
 
 
@@ -32,6 +32,6 @@ setup(
     author='kathir sanjay',
     author_email='kathirsanjay5@gmail.com',
     packages = find_packages(), # it directly go and see every folder and folder which 
-    # has __init__.py it directly consider the folder(src) aspackage and build this 
-    install_requires = get_requirements('requirements.txt')
+    # has __init__.py it directly consider the folder(src) as package and build this 
+    install_requires = get_requirements(file_path=FILE_PATH)
 )
