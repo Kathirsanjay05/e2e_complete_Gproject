@@ -222,6 +222,7 @@ __marimo__/
 #files ignoring that don't want to push in github but stays in local
 
 notes_folder/
+artifacts/
 
 
 #ignoring logs files
