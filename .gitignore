@@ -219,7 +219,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-#files ignoring that don't want to push in github but stays in local
+#folder and files ignoring that don't want to push in github but stays in local
 
 notes_folder/
 artifacts/

@@ -4,7 +4,7 @@ from src.logger import logging
 def error_message_details(error,error_details:sys): # type: ignore
     _,_,exc_tb = error_details.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename # type: ignore
-    error_message = f"Error occured in python script name [{0}] line number [{1}] error messge [{2}]".format(
+    error_message = "Error occured in python script name [{0}] line number [{1}] error messge [{2}]".format(
     file_name,exc_tb.tb_lineno,str(error) # type: ignore
     )
     return error_message

@@ -3,5 +3,6 @@ numpy
 seaborn
 matplotlib
 Scikit-Learn
+dill
 #-e .
 # this automatically trigger the setup.py to build the packages 
